@@ -1,0 +1,29 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="main">
+    <section class="module">
+
+        <div class="text-center">
+            <h2>SentAsys</h2>
+
+            <p><textarea id="Message" class="form-control" rows="7" placeholder="Введите сюда предложение, чтобы попробовать определить тональность текста"></textarea></p>
+
+            <div class="sentiment">
+                <h4>Тональность введенного предложения...</h4>
+                <p>😡 😐 😍</p>
+
+                <div class="marker">
+                    <div id="markerPosition" style="left: 57%;">
+                        <div>▲</div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+

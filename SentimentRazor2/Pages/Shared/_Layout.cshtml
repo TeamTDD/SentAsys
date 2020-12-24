@@ -1,0 +1,238 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewData["Title"] - SentAsys</title>
+
+    <environment include="Development">
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="~/css/site.css" />
+    </environment>
+    <environment exclude="Development">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+        <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+    </environment>
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--
+    Document Title
+    =============================================
+    -->
+    <title>Titan | Multipurpose HTML5 Template</title>
+    <!--
+    Favicons
+    =============================================
+    -->
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/images/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/images/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!--
+    Stylesheets
+    =============================================
+
+    -->
+    <!-- Default stylesheets-->
+    <link href="assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Template specific stylesheets-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Volkhov:400i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+    <link href="assets/lib/animate.css/animate.css" rel="stylesheet">
+    <link href="assets/lib/components-font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/lib/et-line-font/et-line-font.css" rel="stylesheet">
+    <link href="assets/lib/flexslider/flexslider.css" rel="stylesheet">
+    <link href="assets/lib/owl.carousel/dist/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/lib/owl.carousel/dist/assets/owl.theme.default.min.css" rel="stylesheet">
+    <link href="assets/lib/magnific-popup/dist/magnific-popup.css" rel="stylesheet">
+    <link href="assets/lib/simple-text-rotator/simpletextrotator.css" rel="stylesheet">
+    <!-- Main stylesheet and color file-->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link id="color-scheme" href="assets/css/colors/default.css" rel="stylesheet">
+</head>
+<body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
+    <main>
+        <div class="page-loader">
+            <div class="loader">Loading...</div>
+        </div>
+        <nav class="navbar navbar-custom navbar-fixed-top navbar-transparent" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="">sentasys</a>
+                </div>
+                <div class="collapse navbar-collapse" id="custom-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a class="btn-b" href="#">Главная</a>
+                        </li>
+                        <li class="dropdown">
+                            <a class="btn-b" href="#about">Попробовать</a>
+                        </li>
+                        <li class="dropdown">
+                            <a class="btn-b" href="#howworks">Как это работает?</a>
+                        </li>
+                        <li class="dropdown">
+                            <a class="btn-b" href="#team">О команде</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="home-section home-fade home-full-height bg-dark-60 landing-header" id="home" data-background="assets/images/landing/home-back2.jpg">
+            <div class="titan-caption">
+                <div class="caption-content">
+                    <div class="container">
+                        <div class="font-alt mb-30 titan-title-size-4">SentAsys</div>
+                        <div class="font-alt mb-30 titan-title-size-2">Система анализа тональности введенного текста</div>
+                        <div class="font-alt mt-30"><a class="btn btn-border-w btn-circle" href="#about"><i class="icon-pencil"></i> Попробовать!</a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <div class="main">
+            <section class="module-medium" id="about">
+                <div class="container">
+                    <div class="row">
+                        <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+                        <partial name="_CookieConsentPartial" />
+                        <div class="container body-content">
+                            @RenderBody()
+                        </div>
+                        <environment include="Development">
+                            <script src="~/lib/jquery/dist/jquery.js"></script>
+                            <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+                            <script src="~/js/site.js" asp-append-version="true"></script>
+                        </environment>
+                        <environment exclude="Development">
+                            <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.3.1.min.js"
+                                    asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                                    asp-fallback-test="window.jQuery"
+                                    crossorigin="anonymous"
+                                    integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT">
+                            </script>
+                            <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+                                    asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
+                                    asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+                                    crossorigin="anonymous"
+                                    integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd">
+                            </script>
+                            <script src="~/js/site.min.js" asp-append-version="true"></script>
+                        </environment>
+                        @RenderSection("Scripts", required: false)
+                        <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+                    </div>
+                </div>
+            </section>
+            <section class="module-small free-trial" id="howworks">
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col-sm-8 col-sm-offset-2">
+                            <h2 class="font-alt">Как это работает?</h2>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+            <section>
+                <div class="container">
+                    <div class="row landing-image-text">
+                        <div class="col-sm-6 col-sm-push-6"><img class="center-block" src="assets/images/landing/hw111.png" alt=""></div>
+                        <div class="col-sm-6 col-sm-pull-6">
+                            <h2 class="font-alt">Знакомство с приложением</h2>
+                            <h4><p>WEB-приложение, которое демонстрирует работу модуля анализа тональности текста. При каждом изменении вводимого текста происходит оценка эмоциональной окраски и моментально демонстрируется прогноз тональности высказывания. Модель была обучена на наборе данных из более чем 35 тыс. строк.</p></h4><a class="btn btn-border-d btn-circle" href="#about">Попробовать</a>
+</div>
+                    </div>
+                    <div class="row landing-image-text">
+                        <div class="col-sm-6"><img class="center-block" src="~/assets/images/landing/hw2.jpeg" alt=""></div>
+                        <div class="col-sm-6">
+                            <h2 class="font-alt">Как это работает?</h2>
+                            <h4>
+                                Анализ тональности текста - класс методов, предназначенный для
+                                автоматизированного выявления в текстах эмоционально окрашенной лексики
+                                и эмоциональной оценки мнений авторов по отношению к объектам, речь о
+                                которых идёт в тексте.
+                            </h4>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="module bg-dark parallax-bg landing-screenshot" data-background="assets/images/landing/team-back.png" id="team">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-sm-offset-3">
+                            <h2 class="module-title font-alt">Состав команды</h2>
+                            <div class="module-subtitle font-serif"><h4>"Люди вместе могут совершить то, чего не в силах сделать в одиночку; единение умов и рук, сосредоточение их сил может стать почти всемогущим." ©</h4></div>
+                        </div>
+                    </div>
+                    <div class="row client">
+                        <div class="owl-carousel text-center" data-items="4" data-pagination="true" data-navigation="false">
+                            <div class="owl-item">
+                                <div class="col-sm-12"><img src="~/assets/images/landing/macov.jpeg" alt="Антон Маков"></div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="col-sm-12"><img src="~/assets/images/landing/belyanina.jpg" alt="Белянина Екатерина"></div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="col-sm-12"><img src="~/assets/images/landing/terentiev.jpg" alt="Терентьев Александр"></div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="col-sm-12"><img src="~/assets/images/landing/kovalev.jpg" alt="Ковалев Александр"></div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="col-sm-12"><img src="assets/images/landing/ba.jpg" alt="Ба Мамаду"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="footer bg-dark">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <p class="copyright font-alt">&copy; 2020&nbsp;Mountain Peak Team</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        
+        <div class="scroll-up"><a href="#totop"><i class="fa fa-angle-double-up"></i></a></div>
+    </main>
+    <!--
+    JavaScripts
+    =============================================
+    -->
+    <script src="assets/lib/jquery/dist/jquery.js"></script>
+    <script src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/lib/wow/dist/wow.js"></script>
+    <script src="assets/lib/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer.js"></script>
+    <script src="assets/lib/isotope/dist/isotope.pkgd.js"></script>
+    <script src="assets/lib/imagesloaded/imagesloaded.pkgd.js"></script>
+    <script src="assets/lib/flexslider/jquery.flexslider.js"></script>
+    <script src="assets/lib/owl.carousel/dist/owl.carousel.min.js"></script>
+    <script src="assets/lib/smoothscroll.js"></script>
+    <script src="assets/lib/magnific-popup/dist/jquery.magnific-popup.js"></script>
+    <script src="assets/lib/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+C:\Users\Александр\source\repos\SentimentRazor2\SentimentRazor2ML.Model\bin\Release\netstandard2.0\MLModel.zip
+C:\Users\Александр\source\repos\SentimentRazor2\SentimentRazor2ML.Model\bin\Release\netstandard2.0\SentimentRazor2ML.Model.deps.json
+C:\Users\Александр\source\repos\SentimentRazor2\SentimentRazor2ML.Model\bin\Release\netstandard2.0\SentimentRazor2ML.Model.dll
+C:\Users\Александр\source\repos\SentimentRazor2\SentimentRazor2ML.Model\bin\Release\netstandard2.0\SentimentRazor2ML.Model.pdb
+C:\Users\Александр\source\repos\SentimentRazor2\SentimentRazor2ML.Model\obj\Release\netstandard2.0\SentimentRazor2ML.Model.csprojAssemblyReference.cache
+C:\Users\Александр\source\repos\SentimentRazor2\SentimentRazor2ML.Model\obj\Release\netstandard2.0\SentimentRazor2ML.Model.AssemblyInfoInputs.cache
+C:\Users\Александр\source\repos\SentimentRazor2\SentimentRazor2ML.Model\obj\Release\netstandard2.0\SentimentRazor2ML.Model.AssemblyInfo.cs
+C:\Users\Александр\source\repos\SentimentRazor2\SentimentRazor2ML.Model\obj\Release\netstandard2.0\SentimentRazor2ML.Model.dll
+C:\Users\Александр\source\repos\SentimentRazor2\SentimentRazor2ML.Model\obj\Release\netstandard2.0\SentimentRazor2ML.Model.pdb

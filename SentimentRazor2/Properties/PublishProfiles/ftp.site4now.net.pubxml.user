@@ -1,0 +1,2000 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Этот файл используется процессом публикации или упаковки вашего веб-проекта. Можно настроить поведение этого процесса,
+изменив этот файл MSBuild. Подробности см. на странице https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword />
+    <_PublishTargetUrl>ftp://ftp.site4now.net/site1</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>10/12/2020 09:37:08</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>10/12/2020 09:37:08</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.ML.dll">
+      <publishTime>09/11/2020 21:30:56</publishTime>
+    </File>
+    <File Include="Microsoft.ML.Core.dll">
+      <publishTime>09/11/2020 21:30:56</publishTime>
+    </File>
+    <File Include="Microsoft.ML.CpuMath.dll">
+      <publishTime>09/11/2020 21:30:56</publishTime>
+    </File>
+    <File Include="Microsoft.ML.Data.dll">
+      <publishTime>09/11/2020 21:30:56</publishTime>
+    </File>
+    <File Include="Microsoft.ML.DataView.dll">
+      <publishTime>09/11/2020 21:30:56</publishTime>
+    </File>
+    <File Include="Microsoft.ML.KMeansClustering.dll">
+      <publishTime>09/11/2020 21:30:56</publishTime>
+    </File>
+    <File Include="Microsoft.ML.PCA.dll">
+      <publishTime>09/11/2020 21:30:56</publishTime>
+    </File>
+    <File Include="Microsoft.ML.StandardTrainers.dll">
+      <publishTime>09/11/2020 21:30:56</publishTime>
+    </File>
+    <File Include="Microsoft.ML.Transforms.dll">
+      <publishTime>09/11/2020 21:30:56</publishTime>
+    </File>
+    <File Include="MLModel.zip">
+      <publishTime>10/12/2020 09:37:12</publishTime>
+    </File>
+    <File Include="runtimes/linux-x64/native/libLdaNative.so">
+      <publishTime>09/11/2020 21:30:56</publishTime>
+    </File>
+    <File Include="runtimes/linux-x64/nativeassets/netstandard2.0/libCpuMathNative.so">
+      <publishTime>09/11/2020 21:30:56</publishTime>
+    </File>
+    <File Include="runtimes/osx-x64/native/libLdaNative.dylib">
+      <publishTime>09/11/2020 21:30:56</publishTime>
+    </File>
+    <File Include="runtimes/osx-x64/nativeassets/netstandard2.0/libCpuMathNative.dylib">
+      <publishTime>09/11/2020 21:30:56</publishTime>
+    </File>
+    <File Include="runtimes/win-x64/native/LdaNative.dll">
+      <publishTime>09/11/2020 21:30:56</publishTime>
+    </File>
+    <File Include="runtimes/win-x64/nativeassets/netstandard2.0/CpuMathNative.dll">
+      <publishTime>09/11/2020 21:30:56</publishTime>
+    </File>
+    <File Include="runtimes/win-x86/native/LdaNative.dll">
+      <publishTime>09/11/2020 21:30:56</publishTime>
+    </File>
+    <File Include="runtimes/win-x86/nativeassets/netstandard2.0/CpuMathNative.dll">
+      <publishTime>09/11/2020 21:30:56</publishTime>
+    </File>
+    <File Include="SentimentRazor2.deps.json">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="SentimentRazor2.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="SentimentRazor2.pdb">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="SentimentRazor2.runtimeconfig.json">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="SentimentRazor2.Views.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="SentimentRazor2.Views.pdb">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="SentimentRazor2ML.Model.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="SentimentRazor2ML.Model.pdb">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="System.CodeDom.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="System.Threading.Channels.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="wwwroot/assets/css/colors/default-rtl.css">
+      <publishTime>10/12/2020 13:08:44</publishTime>
+    </File>
+    <File Include="wwwroot/assets/css/colors/default.css">
+      <publishTime>10/12/2020 13:08:44</publishTime>
+    </File>
+    <File Include="wwwroot/assets/css/style-rtl.css">
+      <publishTime>10/12/2020 13:08:44</publishTime>
+    </File>
+    <File Include="wwwroot/assets/css/style.css">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/favicons/android-icon-144x144.png">
+      <publishTime>10/12/2020 13:08:45</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/favicons/android-icon-192x192.png">
+      <publishTime>10/12/2020 13:08:45</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/favicons/android-icon-36x36.png">
+      <publishTime>10/12/2020 13:08:45</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/favicons/android-icon-48x48.png">
+      <publishTime>10/12/2020 13:08:45</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/favicons/android-icon-72x72.png">
+      <publishTime>10/12/2020 13:08:45</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/favicons/android-icon-96x96.png">
+      <publishTime>10/12/2020 13:08:46</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/favicons/apple-icon-114x114.png">
+      <publishTime>10/12/2020 13:08:46</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/favicons/apple-icon-120x120.png">
+      <publishTime>10/12/2020 13:08:46</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/favicons/apple-icon-144x144.png">
+      <publishTime>10/12/2020 13:08:46</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/favicons/apple-icon-152x152.png">
+      <publishTime>10/12/2020 13:08:46</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/favicons/apple-icon-180x180.png">
+      <publishTime>10/12/2020 13:08:46</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/favicons/apple-icon-57x57.png">
+      <publishTime>10/12/2020 13:08:46</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/favicons/apple-icon-60x60.png">
+      <publishTime>10/12/2020 13:08:46</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/favicons/apple-icon-72x72.png">
+      <publishTime>10/12/2020 13:08:46</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/favicons/apple-icon-76x76.png">
+      <publishTime>10/12/2020 13:08:46</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/favicons/apple-icon-precomposed.png">
+      <publishTime>10/12/2020 13:08:46</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/favicons/apple-icon.png">
+      <publishTime>10/12/2020 13:08:46</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/favicons/browserconfig.xml">
+      <publishTime>10/12/2020 13:08:46</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/favicons/favicon-16x16.png">
+      <publishTime>10/12/2020 13:08:46</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/favicons/favicon-32x32.png">
+      <publishTime>10/12/2020 13:08:46</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/favicons/favicon-96x96.png">
+      <publishTime>10/12/2020 13:08:46</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/favicons/favicon.ico">
+      <publishTime>10/12/2020 13:08:46</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/favicons/manifest.json">
+      <publishTime>10/12/2020 13:08:46</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/favicons/ms-icon-144x144.png">
+      <publishTime>10/12/2020 13:08:46</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/favicons/ms-icon-150x150.png">
+      <publishTime>10/12/2020 13:08:46</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/favicons/ms-icon-310x310.png">
+      <publishTime>10/12/2020 13:08:46</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/favicons/ms-icon-70x70.png">
+      <publishTime>10/12/2020 13:08:46</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/landing/apple-store-icon.png">
+      <publishTime>10/12/2020 13:08:50</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/landing/ba.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/landing/banner_img.png">
+      <publishTime>10/12/2020 13:08:50</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/landing/belyanina.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/landing/feature.png">
+      <publishTime>10/12/2020 13:08:50</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/landing/home-back.jpg">
+      <publishTime>12/09/2020 09:58:16</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/landing/home-back2.jpg">
+      <publishTime>12/09/2020 10:01:14</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/landing/hw1.png">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/landing/hw11.png">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/landing/hw111.png">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/landing/hw2.jpeg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/landing/ipad.png">
+      <publishTime>10/12/2020 13:08:51</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/landing/iPhone-6-Mockup_landscape-d6dd4e9f560128788d91804cd90a80ddbd8f14f2964b63fc056601cc11a8a9e4.png">
+      <publishTime>10/12/2020 13:08:51</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/landing/iphone-mockup.png">
+      <publishTime>10/12/2020 13:08:51</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/landing/kovalev.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/landing/landing_bg.jpg">
+      <publishTime>10/12/2020 13:08:51</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/landing/landscap-mockup.jpg">
+      <publishTime>10/12/2020 13:08:51</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/landing/macov.jpeg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/landing/playstore-icon.png">
+      <publishTime>10/12/2020 13:08:51</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/landing/screenshot1.jpg">
+      <publishTime>10/12/2020 13:08:51</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/landing/screenshot2.jpg">
+      <publishTime>10/12/2020 13:08:51</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/landing/screenshot3.jpg">
+      <publishTime>10/12/2020 13:08:51</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/landing/screenshot4.jpg">
+      <publishTime>10/12/2020 13:08:51</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/landing/screenshot5.jpg">
+      <publishTime>10/12/2020 13:08:51</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/landing/screenshot6.jpg">
+      <publishTime>10/12/2020 13:08:51</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/landing/screenshot_bg.png">
+      <publishTime>10/12/2020 13:08:51</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/landing/team-back.png">
+      <publishTime>12/09/2020 09:33:10</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/landing/team-back2.jpg">
+      <publishTime>12/09/2020 09:32:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/landing/terentiev.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/landing/why_choose.png">
+      <publishTime>10/12/2020 13:08:51</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/landing/why_choose_bg.png">
+      <publishTime>10/12/2020 13:08:51</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/landing/windows-store-icon.png">
+      <publishTime>10/12/2020 13:08:51</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/main.js">
+      <publishTime>12/09/2020 09:12:01</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/plugins.js">
+      <publishTime>10/12/2020 13:08:52</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/animate.css/animate.css">
+      <publishTime>10/12/2020 13:08:52</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/bootstrap/dist/css/bootstrap-theme.css">
+      <publishTime>10/12/2020 13:08:52</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/bootstrap/dist/css/bootstrap-theme.css.map">
+      <publishTime>10/12/2020 13:08:52</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/bootstrap/dist/css/bootstrap-theme.min.css">
+      <publishTime>10/12/2020 13:08:52</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/bootstrap/dist/css/bootstrap-theme.min.css.map">
+      <publishTime>10/12/2020 13:08:52</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/bootstrap/dist/css/bootstrap.css">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/bootstrap/dist/css/bootstrap.css.map">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/bootstrap/dist/css/bootstrap.min.css">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/bootstrap/dist/css/bootstrap.min.css.map">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/bootstrap/dist/js/bootstrap.js">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/bootstrap/dist/js/bootstrap.min.js">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/bootstrap/dist/js/npm.js">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/components-font-awesome/css/font-awesome.min.css">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/components-font-awesome/fonts/fontawesome-webfont.eot">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/components-font-awesome/fonts/fontawesome-webfont.svg">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/components-font-awesome/fonts/fontawesome-webfont.ttf">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/components-font-awesome/fonts/fontawesome-webfont.woff">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/components-font-awesome/fonts/fontawesome-webfont.woff2">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/components-font-awesome/fonts/FontAwesome.otf">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/desandro-matches-selector/matches-selector.js">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/et-line-font/et-line-font.css">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/et-line-font/et-line.dev.svg">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/et-line-font/fonts/et-line.eot">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/et-line-font/fonts/et-line.svg">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/et-line-font/fonts/et-line.ttf">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/et-line-font/fonts/et-line.woff">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/et-line-font/index.html">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/et-line-font/lte-ie7.js">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/et-line-font/Read Me.txt">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/ev-emitter/ev-emitter.js">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/fizzy-ui-utils/utils.js">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/flexslider/flexslider.css">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/flexslider/fonts/flexslider-icon.eot">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/flexslider/fonts/flexslider-icon.svg">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/flexslider/fonts/flexslider-icon.ttf">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/flexslider/fonts/flexslider-icon.woff">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/flexslider/jquery.flexslider.js">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/get-size/get-size.js">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/isotope/dist/isotope.pkgd.js">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer.js">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/jquery/dist/jquery.js">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/magnific-popup/dist/jquery.magnific-popup.js">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/magnific-popup/dist/magnific-popup.css">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/masonry/dist/masonry.pkgd.js">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/outlayer/outlayer.js">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/bower.json">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/CONTRIBUTING.md">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/dist/assets/ajax-loader.gif">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/dist/assets/owl.carousel.css">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/dist/assets/owl.carousel.min.css">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/dist/assets/owl.theme.default.css">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/dist/assets/owl.theme.default.min.css">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/dist/assets/owl.theme.green.css">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/dist/assets/owl.theme.green.min.css">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/dist/assets/owl.video.play.png">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/dist/owl.carousel.js">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/dist/owl.carousel.min.js">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/dist/README.md">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/assets/css/animate.css">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/assets/css/docs.theme.min.css">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/assets/img/bird_blue_32.png">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/assets/img/download.png">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/assets/img/feature-drag.png">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/assets/img/feature-modern.png">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/assets/img/feature-module.png">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/assets/img/feature-options.png">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/assets/img/feature-responsive.png">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/assets/img/feature-zombie.png">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/assets/img/owl-logo.png">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/assets/img/twitter_25.png">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/assets/js/app.js">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/assets/js/foundation.min.js">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/assets/owlcarousel/assets/ajax-loader.gif">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/assets/owlcarousel/assets/owl.carousel.css">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/assets/owlcarousel/assets/owl.carousel.min.css">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/assets/owlcarousel/assets/owl.theme.default.css">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/assets/owlcarousel/assets/owl.theme.default.min.css">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/assets/owlcarousel/assets/owl.theme.green.css">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/assets/owlcarousel/assets/owl.theme.green.min.css">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/assets/owlcarousel/assets/owl.video.play.png">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/assets/owlcarousel/owl.carousel.js">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/assets/owlcarousel/owl.carousel.min.js">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/assets/owlcarousel/README.md">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/assets/vendors/foundation.min.js">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/assets/vendors/highlight.js">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/assets/vendors/jquery.min.js">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/assets/vendors/jquery.min.map">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/assets/vendors/jquery.mousewheel.min.js">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/demos/animate.html">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/demos/autoheight.html">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/demos/autoplay.html">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/demos/autowidth.html">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/demos/basic.html">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/demos/center.html">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/demos/demos.html">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/demos/events.html">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/demos/lazyLoad.html">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/demos/merge.html">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/demos/mousewheel.html">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/demos/responsive.html">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/demos/rtl.html">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/demos/stagepadding.html">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/demos/test.html">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/demos/urlhashnav.html">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/demos/video.html">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/docs/api-classes.html">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/docs/api-events.html">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/docs/api-options.html">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/docs/dev-buildin-plugins.html">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/docs/dev-external.html">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/docs/dev-plugin-api.html">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/docs/dev-styles.html">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/docs/started-faq.html">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/docs/started-installation.html">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/docs/started-welcome.html">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/docs/support-changelog.html">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/docs/support-contact.html">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/docs/support-contributing.html">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs/index.html">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/assets/css/animate.css">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/assets/img/bird_blue_32.png">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/assets/img/download.png">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/assets/img/feature-drag.png">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/assets/img/feature-modern.png">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/assets/img/feature-module.png">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/assets/img/feature-options.png">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/assets/img/feature-responsive.png">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/assets/img/feature-zombie.png">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/assets/img/owl-logo.png">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/assets/img/twitter_25.png">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/assets/js/app.js">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/assets/js/foundation.min.js">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/assets/scss/custom.scss">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/assets/scss/demos.scss">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/assets/scss/docs.scss">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/assets/scss/docs.theme.scss">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/assets/scss/highlight.scss">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/assets/scss/_settings.scss">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/assets/vendors/foundation.min.js">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/assets/vendors/highlight.js">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/assets/vendors/jquery.min.js">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/assets/vendors/jquery.min.map">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/assets/vendors/jquery.mousewheel.min.js">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/data/classes.json">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/data/events.json">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/data/features.json">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/data/options.json">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/helpers/modulo.js">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/helpers/test.js">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/templates/layouts/demos.hbs">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/templates/layouts/docs.hbs">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/templates/layouts/home.hbs">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/templates/pages/demos/animate.hbs">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/templates/pages/demos/autoheight.hbs">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/templates/pages/demos/autoplay.hbs">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/templates/pages/demos/autowidth.hbs">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/templates/pages/demos/basic.hbs">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/templates/pages/demos/center.hbs">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/templates/pages/demos/demos.hbs">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/templates/pages/demos/events.hbs">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/templates/pages/demos/lazyLoad.hbs">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/templates/pages/demos/merge.hbs">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/templates/pages/demos/mousewheel.hbs">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/templates/pages/demos/responsive.hbs">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/templates/pages/demos/rtl.hbs">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/templates/pages/demos/stagepadding.hbs">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/templates/pages/demos/test.hbs">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/templates/pages/demos/urlhashnav.hbs">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/templates/pages/demos/video.hbs">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/templates/pages/docs/api-classes.hbs">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/templates/pages/docs/api-events.hbs">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/templates/pages/docs/api-options.hbs">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/templates/pages/docs/dev-buildin-plugins.hbs">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/templates/pages/docs/dev-external.hbs">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/templates/pages/docs/dev-plugin-api.hbs">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/templates/pages/docs/dev-styles.hbs">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/templates/pages/docs/started-faq.hbs">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/templates/pages/docs/started-installation.hbs">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/templates/pages/docs/started-welcome.hbs">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/templates/pages/docs/support-changelog.hbs">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/templates/pages/docs/support-contact.hbs">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/templates/pages/docs/support-contributing.hbs">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/templates/pages/index.hbs">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/templates/partials/footer.hbs">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/templates/partials/head.hbs">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/templates/partials/header.hbs">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/templates/partials/home-carousel.hbs">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/templates/partials/home-features.hbs">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/templates/partials/home-hero.hbs">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/templates/partials/home-teaser-text.hbs">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/templates/partials/javascripts.hbs">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/templates/partials/releated-docs.hbs">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/templates/partials/sidenav-docs.hbs">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/templates/partials/title.hbs">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/docs_src/templates/partials/vendors.hbs">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/Gruntfile.js">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/package.json">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/README.md">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/ROADMAP.md">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/src/img/ajax-loader.gif">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/src/img/owl.video.play.png">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/src/js/owl.animate.js">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/src/js/owl.autoheight.js">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/src/js/owl.autoplay.js">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/src/js/owl.autorefresh.js">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/src/js/owl.carousel.js">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/src/js/owl.hash.js">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/src/js/owl.lazyload.js">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/src/js/owl.navigation.js">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/src/js/owl.support.js">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/src/js/owl.support.modernizr.js">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/src/js/owl.video.js">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/src/scss/owl.carousel.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/src/scss/owl.theme.default.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/src/scss/owl.theme.green.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/src/scss/_animate.scss">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/src/scss/_autoheight.scss">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/src/scss/_core.scss">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/src/scss/_lazyload.scss">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/src/scss/_theme.default.scss">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/src/scss/_theme.green.scss">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/src/scss/_theme.scss">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/src/scss/_video.scss">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/test/index.html">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/test/unit/core.js">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/owl.carousel/_config.json">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/prettify.js">
+      <publishTime>10/12/2020 13:08:52</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/simple-text-rotator/jquery.simple-text-rotator.min.js">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/simple-text-rotator/simpletextrotator.css">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/skrollr/src/skrollr.js">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/smoothscroll.js">
+      <publishTime>10/12/2020 13:08:52</publishTime>
+    </File>
+    <File Include="wwwroot/assets/lib/wow/dist/wow.js">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/assets/scss/colors/default.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/assets/scss/style.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/assets/scss/_blogpost.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/assets/scss/_button.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/assets/scss/_client.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/assets/scss/_comment_box.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/assets/scss/_common.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/assets/scss/_config.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/assets/scss/_cta.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/assets/scss/_documentation.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/assets/scss/_footer.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/assets/scss/_forms.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/assets/scss/_funfact.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/assets/scss/_gallery.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/assets/scss/_gmap.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/assets/scss/_header.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/assets/scss/_media_querries.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/assets/scss/_navbar.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/assets/scss/_portfolio.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/assets/scss/_preloader.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/assets/scss/_price_table.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/assets/scss/_restaurant_menu.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/assets/scss/_services_and_features.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/assets/scss/_shop_items.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/assets/scss/_shop_single_product.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/assets/scss/_showcase.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/assets/scss/_single_portfolio.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/assets/scss/_slider.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/assets/scss/_team.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/assets/scss/_testimonial.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/assets/scss/_typography.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/assets/scss/_video_box.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/assets/scss/_widgets.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/css/colors/default-rtl.css">
+      <publishTime>10/12/2020 13:08:44</publishTime>
+    </File>
+    <File Include="wwwroot/css/colors/default.css">
+      <publishTime>10/12/2020 13:08:44</publishTime>
+    </File>
+    <File Include="wwwroot/css/site.css">
+      <publishTime>10/12/2020 09:37:10</publishTime>
+    </File>
+    <File Include="wwwroot/css/site.min.css">
+      <publishTime>10/12/2020 09:37:10</publishTime>
+    </File>
+    <File Include="wwwroot/css/style-rtl.css">
+      <publishTime>10/12/2020 13:08:44</publishTime>
+    </File>
+    <File Include="wwwroot/css/style.css">
+      <publishTime>10/12/2020 13:08:44</publishTime>
+    </File>
+    <File Include="wwwroot/favicon.ico">
+      <publishTime>10/12/2020 09:37:10</publishTime>
+    </File>
+    <File Include="wwwroot/js/site.js">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="wwwroot/js/site.min.js">
+      <publishTime>10/12/2020 09:37:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/animate.css/animate.css">
+      <publishTime>10/12/2020 13:08:52</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/.bower.json">
+      <publishTime>10/12/2020 09:37:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css">
+      <publishTime>10/12/2020 09:37:11</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css.map">
+      <publishTime>10/12/2020 09:37:11</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css">
+      <publishTime>10/12/2020 09:37:11</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css.map">
+      <publishTime>10/12/2020 09:37:11</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.css">
+      <publishTime>10/12/2020 09:37:11</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.css.map">
+      <publishTime>10/12/2020 09:37:11</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.min.css">
+      <publishTime>10/12/2020 09:37:11</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map">
+      <publishTime>10/12/2020 09:37:11</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>10/12/2020 09:37:11</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>10/12/2020 09:37:11</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>10/12/2020 09:37:11</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>10/12/2020 09:37:11</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>10/12/2020 09:37:11</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.js">
+      <publishTime>10/12/2020 09:37:11</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.min.js">
+      <publishTime>10/12/2020 09:37:11</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/npm.js">
+      <publishTime>10/12/2020 09:37:11</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/LICENSE">
+      <publishTime>10/12/2020 09:37:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/components-font-awesome/css/font-awesome.min.css">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/lib/components-font-awesome/fonts/fontawesome-webfont.eot">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/lib/components-font-awesome/fonts/fontawesome-webfont.svg">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/lib/components-font-awesome/fonts/fontawesome-webfont.ttf">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/lib/components-font-awesome/fonts/fontawesome-webfont.woff">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/lib/components-font-awesome/fonts/fontawesome-webfont.woff2">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/lib/components-font-awesome/fonts/FontAwesome.otf">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/lib/desandro-matches-selector/matches-selector.js">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/lib/et-line-font/et-line-font.css">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/lib/et-line-font/et-line.dev.svg">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/lib/et-line-font/fonts/et-line.eot">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/lib/et-line-font/fonts/et-line.svg">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/lib/et-line-font/fonts/et-line.ttf">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/lib/et-line-font/fonts/et-line.woff">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/lib/et-line-font/index.html">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/lib/et-line-font/lte-ie7.js">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/lib/et-line-font/Read Me.txt">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/lib/ev-emitter/ev-emitter.js">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/lib/fizzy-ui-utils/utils.js">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/lib/flexslider/flexslider.css">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/lib/flexslider/fonts/flexslider-icon.eot">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/lib/flexslider/fonts/flexslider-icon.svg">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/lib/flexslider/fonts/flexslider-icon.ttf">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/lib/flexslider/fonts/flexslider-icon.woff">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/lib/flexslider/jquery.flexslider.js">
+      <publishTime>10/12/2020 13:08:53</publishTime>
+    </File>
+    <File Include="wwwroot/lib/get-size/get-size.js">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/lib/imagesloaded/imagesloaded.pkgd.js">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/lib/isotope/dist/isotope.pkgd.js">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/.bower.json">
+      <publishTime>10/12/2020 09:37:11</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js">
+      <publishTime>10/12/2020 09:37:11</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js">
+      <publishTime>10/12/2020 09:37:12</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt">
+      <publishTime>10/12/2020 09:37:12</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/.bower.json">
+      <publishTime>10/12/2020 09:37:11</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/additional-methods.js">
+      <publishTime>10/12/2020 09:37:11</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/additional-methods.min.js">
+      <publishTime>10/12/2020 09:37:11</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/jquery.validate.js">
+      <publishTime>10/12/2020 09:37:11</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/jquery.validate.min.js">
+      <publishTime>10/12/2020 09:37:11</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/LICENSE.md">
+      <publishTime>10/12/2020 09:37:11</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer.js">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/.bower.json">
+      <publishTime>10/12/2020 09:37:11</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.js">
+      <publishTime>10/12/2020 09:37:11</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.min.js">
+      <publishTime>10/12/2020 09:37:11</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.min.map">
+      <publishTime>10/12/2020 09:37:11</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/LICENSE.txt">
+      <publishTime>10/12/2020 09:37:11</publishTime>
+    </File>
+    <File Include="wwwroot/lib/magnific-popup/dist/jquery.magnific-popup.js">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/lib/magnific-popup/dist/magnific-popup.css">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/lib/masonry/dist/masonry.pkgd.js">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/lib/outlayer/outlayer.js">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/bower.json">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/CONTRIBUTING.md">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/dist/assets/ajax-loader.gif">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/dist/assets/owl.carousel.css">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/dist/assets/owl.carousel.min.css">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/dist/assets/owl.theme.default.css">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/dist/assets/owl.theme.default.min.css">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/dist/assets/owl.theme.green.css">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/dist/assets/owl.theme.green.min.css">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/dist/assets/owl.video.play.png">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/dist/owl.carousel.js">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/dist/owl.carousel.min.js">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/dist/README.md">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/assets/css/animate.css">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/assets/css/docs.theme.min.css">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/assets/img/bird_blue_32.png">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/assets/img/download.png">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/assets/img/feature-drag.png">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/assets/img/feature-modern.png">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/assets/img/feature-module.png">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/assets/img/feature-options.png">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/assets/img/feature-responsive.png">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/assets/img/feature-zombie.png">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/assets/img/owl-logo.png">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/assets/img/twitter_25.png">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/assets/js/app.js">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/assets/js/foundation.min.js">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/assets/owlcarousel/assets/ajax-loader.gif">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/assets/owlcarousel/assets/owl.carousel.css">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/assets/owlcarousel/assets/owl.carousel.min.css">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/assets/owlcarousel/assets/owl.theme.default.css">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/assets/owlcarousel/assets/owl.theme.default.min.css">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/assets/owlcarousel/assets/owl.theme.green.css">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/assets/owlcarousel/assets/owl.theme.green.min.css">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/assets/owlcarousel/assets/owl.video.play.png">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/assets/owlcarousel/owl.carousel.js">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/assets/owlcarousel/owl.carousel.min.js">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/assets/owlcarousel/README.md">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/assets/vendors/foundation.min.js">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/assets/vendors/highlight.js">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/assets/vendors/jquery.min.js">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/assets/vendors/jquery.min.map">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/assets/vendors/jquery.mousewheel.min.js">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/demos/animate.html">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/demos/autoheight.html">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/demos/autoplay.html">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/demos/autowidth.html">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/demos/basic.html">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/demos/center.html">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/demos/demos.html">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/demos/events.html">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/demos/lazyLoad.html">
+      <publishTime>10/12/2020 13:08:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/demos/merge.html">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/demos/mousewheel.html">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/demos/responsive.html">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/demos/rtl.html">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/demos/stagepadding.html">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/demos/test.html">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/demos/urlhashnav.html">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/demos/video.html">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/docs/api-classes.html">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/docs/api-events.html">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/docs/api-options.html">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/docs/dev-buildin-plugins.html">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/docs/dev-external.html">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/docs/dev-plugin-api.html">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/docs/dev-styles.html">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/docs/started-faq.html">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/docs/started-installation.html">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/docs/started-welcome.html">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/docs/support-changelog.html">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/docs/support-contact.html">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/docs/support-contributing.html">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs/index.html">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/assets/css/animate.css">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/assets/img/bird_blue_32.png">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/assets/img/download.png">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/assets/img/feature-drag.png">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/assets/img/feature-modern.png">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/assets/img/feature-module.png">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/assets/img/feature-options.png">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/assets/img/feature-responsive.png">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/assets/img/feature-zombie.png">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/assets/img/owl-logo.png">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/assets/img/twitter_25.png">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/assets/js/app.js">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/assets/js/foundation.min.js">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/assets/scss/custom.scss">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/assets/scss/demos.scss">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/assets/scss/docs.scss">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/assets/scss/docs.theme.scss">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/assets/scss/highlight.scss">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/assets/scss/_settings.scss">
+      <publishTime>10/12/2020 13:08:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/assets/vendors/foundation.min.js">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/assets/vendors/highlight.js">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/assets/vendors/jquery.min.js">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/assets/vendors/jquery.min.map">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/assets/vendors/jquery.mousewheel.min.js">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/data/classes.json">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/data/events.json">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/data/features.json">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/data/options.json">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/helpers/modulo.js">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/helpers/test.js">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/templates/layouts/demos.hbs">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/templates/layouts/docs.hbs">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/templates/layouts/home.hbs">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/templates/pages/demos/animate.hbs">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/templates/pages/demos/autoheight.hbs">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/templates/pages/demos/autoplay.hbs">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/templates/pages/demos/autowidth.hbs">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/templates/pages/demos/basic.hbs">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/templates/pages/demos/center.hbs">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/templates/pages/demos/demos.hbs">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/templates/pages/demos/events.hbs">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/templates/pages/demos/lazyLoad.hbs">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/templates/pages/demos/merge.hbs">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/templates/pages/demos/mousewheel.hbs">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/templates/pages/demos/responsive.hbs">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/templates/pages/demos/rtl.hbs">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/templates/pages/demos/stagepadding.hbs">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/templates/pages/demos/test.hbs">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/templates/pages/demos/urlhashnav.hbs">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/templates/pages/demos/video.hbs">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/templates/pages/docs/api-classes.hbs">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/templates/pages/docs/api-events.hbs">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/templates/pages/docs/api-options.hbs">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/templates/pages/docs/dev-buildin-plugins.hbs">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/templates/pages/docs/dev-external.hbs">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/templates/pages/docs/dev-plugin-api.hbs">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/templates/pages/docs/dev-styles.hbs">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/templates/pages/docs/started-faq.hbs">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/templates/pages/docs/started-installation.hbs">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/templates/pages/docs/started-welcome.hbs">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/templates/pages/docs/support-changelog.hbs">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/templates/pages/docs/support-contact.hbs">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/templates/pages/docs/support-contributing.hbs">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/templates/pages/index.hbs">
+      <publishTime>10/12/2020 13:08:57</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/templates/partials/footer.hbs">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/templates/partials/head.hbs">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/templates/partials/header.hbs">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/templates/partials/home-carousel.hbs">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/templates/partials/home-features.hbs">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/templates/partials/home-hero.hbs">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/templates/partials/home-teaser-text.hbs">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/templates/partials/javascripts.hbs">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/templates/partials/releated-docs.hbs">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/templates/partials/sidenav-docs.hbs">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/templates/partials/title.hbs">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/docs_src/templates/partials/vendors.hbs">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/Gruntfile.js">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/package.json">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/README.md">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/ROADMAP.md">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/src/img/ajax-loader.gif">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/src/img/owl.video.play.png">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/src/js/owl.animate.js">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/src/js/owl.autoheight.js">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/src/js/owl.autoplay.js">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/src/js/owl.autorefresh.js">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/src/js/owl.carousel.js">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/src/js/owl.hash.js">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/src/js/owl.lazyload.js">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/src/js/owl.navigation.js">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/src/js/owl.support.js">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/src/js/owl.support.modernizr.js">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/src/js/owl.video.js">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/src/scss/owl.carousel.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/src/scss/owl.theme.default.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/src/scss/owl.theme.green.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/src/scss/_animate.scss">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/src/scss/_autoheight.scss">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/src/scss/_core.scss">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/src/scss/_lazyload.scss">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/src/scss/_theme.default.scss">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/src/scss/_theme.green.scss">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/src/scss/_theme.scss">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/src/scss/_video.scss">
+      <publishTime>10/12/2020 13:08:58</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/test/index.html">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/test/unit/core.js">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/lib/owl.carousel/_config.json">
+      <publishTime>10/12/2020 13:08:54</publishTime>
+    </File>
+    <File Include="wwwroot/lib/prettify.js">
+      <publishTime>10/12/2020 13:08:52</publishTime>
+    </File>
+    <File Include="wwwroot/lib/simple-text-rotator/jquery.simple-text-rotator.min.js">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/lib/simple-text-rotator/simpletextrotator.css">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/lib/skrollr/src/skrollr.js">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/lib/smoothscroll.js">
+      <publishTime>10/12/2020 13:08:52</publishTime>
+    </File>
+    <File Include="wwwroot/lib/wow/dist/wow.js">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/scss/colors/default.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/scss/style.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/scss/_blogpost.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/scss/_button.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/scss/_client.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/scss/_comment_box.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/scss/_common.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/scss/_config.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/scss/_cta.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/scss/_documentation.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/scss/_footer.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/scss/_forms.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/scss/_funfact.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/scss/_gallery.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/scss/_gmap.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/scss/_header.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/scss/_media_querries.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/scss/_navbar.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/scss/_portfolio.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/scss/_preloader.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/scss/_price_table.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/scss/_restaurant_menu.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/scss/_services_and_features.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/scss/_shop_items.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/scss/_shop_single_product.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/scss/_showcase.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/scss/_single_portfolio.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/scss/_slider.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/scss/_team.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/scss/_testimonial.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/scss/_typography.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/scss/_video_box.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+    <File Include="wwwroot/scss/_widgets.scss">
+      <publishTime>10/12/2020 13:08:59</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
